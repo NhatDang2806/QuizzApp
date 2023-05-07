@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/bg">
+
+    <ImageView
+        android:id="@+id/icTime"
+        android:layout_width="114dp"
+        android:layout_height="161dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/oops" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTimeOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="5dp"
+            android:text="Hết thời gian mất rồi.."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+
+            android:id="@+id/btn_tryagain"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/tmount_btn_shape"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Thử lại nào!"
+                android:textColor="#001D6E"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

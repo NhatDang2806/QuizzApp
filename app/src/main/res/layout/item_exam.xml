@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linExam"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/bg_grid"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/header_nav"
+        android:padding="5dp">
+
+    </ImageView>
+    <TextView
+
+        android:text="Môn"
+        android:textColor="#001D6E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
